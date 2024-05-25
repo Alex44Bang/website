@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(255, 182, 193); 
+    padding: 80px;
+    font-family: Arial, sans-serif;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.text {
+    font-size: 20px;
+}
+.corner-image {
+    position: absolute;
+    width: 50px; /* Setze die gewünschte Breite für das Bild */
+    height: 50px; /* Setze die gewünschte Höhe für das Bild */
+}
+.top-left {
+    top: 0;
+    left: 0;
+}
+.top-right {
+    top: 0;
+    right: 0;
+}
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corner-image {
+    position: absolute;
+    width: 50px; /* Setze die gewünschte Breite für das Bild */
+    height: 50px; /* Setze die gewünschte Höhe für das Bild */
+}
+.top-left {
+    top: 0;
+    left: 0;
+}
+.top-right {
+    top: 0;
+    right: 0;
+}
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.resize-image {
+    width: 50%; /* Adjust the width to 50% of the container */
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+.img {
+    display: flex;
+    justify-content: center; /* Zentriert das Bild horizontal */
+    align-items: center; /* Zentriert das Bild vertikal */
+}
